@@ -12,22 +12,25 @@
     <title>SPC</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header_style container">
-        <nav class="naw_flex">
-          <ul class="naw_list">
-            <li class="item"><a>Home</a></li>
-            <li class="item"><a>Ministry</a></li>
-            <li class="item"><a>Training programs</a></li>
-            <li class="item"><a>Merch</a></li>
-            <li class="item"><a>Become a part of legend</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
     <section class="section section_hero">
       <div class="hero_bg_img container">
-        <div class="container"></div>
+        <header class="header">
+          <div class="header_style">
+            <nav class="naw_flex">
+              <ul class="naw_list">
+                <li class="item">
+                  <a><img src="./images/logo/logo2.jpg" width="19" alt="" /></a>
+                </li>
+                <li class="item"><a>Home</a></li>
+                <li class="item"><a>Ministry</a></li>
+                <li class="item"><a>Training programs</a></li>
+                <li class="item"><a>Merch</a></li>
+                <li class="item"><a>Become a part of legend</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <!-- <div class="container"></div> -->
       </div>
     </section>
     <section class="section">
@@ -40,31 +43,33 @@
         </p>
       </div>
     </section>
-    <section class="section">
-      <div class="container">
+    <section class="section ministry_section">
+      <div class="container ministry_container">
         <h2>Ministry</h2>
         <div>
-          <ul>
-            <li>
-              <div>
-                <img src="" alt="" />
-                <h3>Михайло Левченко</h3>
-                <p>Президент SPC</p>
+          <ul class="ministry_list">
+            <li class="ministry_item wrapper">
+              <div class="card">
+                <img
+                  class="front"
+                  src="./images/ministry/MLevchenko.jpg"
+                  alt="MrPresident"
+                />
+                <div class="back">
+                  <h3>Михайло Левченко</h3>
+                  <p>Президент SPC</p>
+                </div>
               </div>
             </li>
-            <li>
-              <div>
-                <img src="" alt="" />
-                <h3>Аліса Левченко</h3>
-                <p>Перша леді SPC</p>
-              </div>
+            <li class="ministry_item">
+              <img src="./images/ministry/ALevchenko.jpg" alt="MsPresident" />
+              <h3>Аліса Левченко</h3>
+              <p>Перша леді SPC</p>
             </li>
-            <li>
-              <div>
-                <img src="" alt="" />
-                <h3>Ткач Богдан</h3>
-                <p>Голова офісу SPC</p>
-              </div>
+            <li class="ministry_item">
+              <img src="./images/ministry/BTkach.jpg" alt="MrTkach" />
+              <h3>Ткач Богдан</h3>
+              <p>Голова офісу SPC</p>
             </li>
             <li>
               <div>
@@ -103,5 +108,6 @@
     <footer>
       <div class="container"></div>
     </footer>
+    <!-- <script src="./index.js"></script> -->
   </body>
 </html>
